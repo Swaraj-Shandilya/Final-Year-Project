@@ -1,0 +1,45 @@
+body {
+    background-color: #00B0FF;
+}
+.heading {
+    text-align: center;
+}
+.main-container {
+    border: 2px solid #18191A;
+    width: 900px;
+    min-height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: white;
+}
+.input-form {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.input-form input {
+    margin-right: 40px;
+    min-width: 400px;
+}
+.table-custom {
+    width: 100%;
+}
+.charts {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.charts img {
+    object-fit: stretch;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.charts h2 {
+    padding: 10px;
+}
